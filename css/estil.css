@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image:url('../img/fondo.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-color: rgba(0, 0, 0, 0.301);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    font-family: 'Quicksand', sans-serif;
+    align-items: center;
+    padding: 20px;
+    
+    
+
+}
+
+.logot img{
+    height: 160px;
+    float: left;
+        
+}
+nav a{
+    padding-right: 40px;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.menu{
+    float: right;
+    margin: 6px;
+}
+.menu a:hover{
+    color: black;
+    
+}
+
+#tit{
+    font-family: 'Comfortaa', cursive;
+    font-size: 115px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 10px 10px black;
+}
+#titu{
+    text-align: center;
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+    font-size: 12 px;
+    text-shadow: 1px 5px 5px black;
+}
+.logo{
+    float: left;
+    padding-top: 80px;
+
+}
+#k{
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .cssbuttons-io-button{
+        margin-bottom: 60px;
+    }
+    body{
+        background-image:url('../img/fondo.webp');
+        height: 1000px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .logot img{
+        height: 130px;
+        float: left;
+    }
+  }
